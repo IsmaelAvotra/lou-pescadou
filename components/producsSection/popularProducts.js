@@ -21,14 +21,14 @@ const PopularProducts = ({ isPhone }) => {
       />
       <div className="py-4 text-[#000c6e] w-full text-center">
         <motion.h3
-          className="text-2xl w-[80%] md:text-5xl m-auto lg:my-5 my-0"
+          className="text-2xl w-[80%] md:text-5xl m-auto lg:my-5 my-1"
           ref={headerRef}
           animate={isHeaderInView && !isPhone ? leftFadeIn : {}}
         >
           Notre <span className="text-[#79c8f5]">histoire</span>
         </motion.h3>
         <motion.p
-          className="text-lg text-justify md:text-center  lg:text-3xl xl:text-4xl w-[60%] m-auto"
+          className="text-lg text-justify md:text-center  lg:text-2xl xl:text-2xl w-[60%] m-auto"
           ref={paragraphRef}
           animate={isParagraphInView && !isPhone ? rightFadeIn : {}}
         >
@@ -45,7 +45,7 @@ const PopularProducts = ({ isPhone }) => {
           </a>
         </motion.p>
         <div className="flex justify-center w-full h-96 bg-[#000] md:mt-44 mt-20">
-          <video src="" ></video>
+          <video src=""></video>
         </div>
       </div>
     </div>

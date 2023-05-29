@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 .backgroundImg {
   background-image: url("../../public/assets/bg.png");
 }
@@ -27,21 +27,21 @@
   background: #555;
 }
 
-body{
-  font-family: 'Dancing Script', cursive;
+body {
+  font-family: "Lato";
 }
-.custom-header{
+.custom-header {
   padding-left: 300px;
   padding-right: 300px;
 }
-@media (max-width:1600px) {
-  .custom-header{
+@media (max-width: 1600px) {
+  .custom-header {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
-@media (max-width:1300px) {
-  .custom-header{
+@media (max-width: 1300px) {
+  .custom-header {
     padding-left: 100px;
     padding-right: 100px;
   }
